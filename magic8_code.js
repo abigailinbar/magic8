@@ -1,5 +1,6 @@
-const num = Math.random() * 5 + 1
-
-const numi = Math.round(num)
-
-console.log(numi)
+function ShowNumi () {
+    let num = Math.random() * 5 + 1
+    let numi = Math.round(num)
+    basic.showNumber(numi)
+}
+input.onButtonPressed(Button.A, ShowNumi)
